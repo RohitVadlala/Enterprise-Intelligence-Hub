@@ -1,11 +1,11 @@
-🧠 Enterprise Intelligence Hub
+## 🧠 Enterprise Intelligence Hub
 A minimal, production‑leaning RAG (Retrieval‑Augmented Generation) app for PDFs.
 Upload a document (or use the sample), chunk & index it, then ask grounded questions powered by Gemini.
 
 Tech: Streamlit · Python 3.11+ · PyMuPDF · FAISS · google‑generativeai
 Deploy: Docker + Cloud Run (GCP)
 
-✨ Features
+## ✨ Features
 Upload or Sample: Try with your own PDF or the included sample.
 
 Chunking pipeline: Clean page text → overlapping chunks.
@@ -18,7 +18,7 @@ Evidence viewer: Inspect the chunks used for each answer.
 
 Cloud‑ready: Dockerfile + Cloud Run instructions.
 
-📂 Project structure
+## 📂 Project structure
 bash
 Copy
 Edit
